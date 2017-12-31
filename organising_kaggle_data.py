@@ -1,7 +1,7 @@
 import os
 from shutil import copyfile
 
-base='/home/ubuntu/Desktop/Anaconda/my_course_practice/kaggle_comp/'
+base='/home/ubuntu/my_fastai_course/lesson1/dogsvscats/'
 
 # Splitting the training data into different classes(folders) as required by keras
 os.chdir(base+'train/')
